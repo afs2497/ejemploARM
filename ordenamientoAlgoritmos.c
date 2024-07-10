@@ -33,7 +33,7 @@ int main()
     for(int i = 0; i< 100; i++)
     {
         numeros_burbuja[i] = rand() % 100;
-        printf("%d ",numeros_burbuja[i])
+        printf("%d ",numeros_burbuja[i]);
     }
 
 
@@ -43,7 +43,7 @@ int main()
     printf("Arreglo ordenado con algoritmo burbuja : \n");
     for(int i = 0; i< 100; i++)
     {
-        printf("%d ",numeros_burbuja[i])
+        printf("%d ",numeros_burbuja[i]);
     }
 
     return 0;
